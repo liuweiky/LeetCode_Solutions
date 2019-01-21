@@ -21,7 +21,7 @@
 
 ### 解题思路
 
-使用 ```st[i]``` 保存**以```i```结尾的最大非重复子串**，外层循环遍历以 i 结尾的子串，内层循环根据```st[i]```检查是否有重复。这种方法可以将时间复杂度从 O(N^3) 降低到 O(N^2)。
+使用 ```st[i]``` 保存**以```i```结尾的最大非重复子串**，外层循环遍历以 i 结尾的子串，内层循环根据```st[i]```检查是否有重复。这种方法可以将时间复杂度从 O(n^3) 降低到 O(n^2)。
 
 ## 0004. Median of Two Sorted Arrays
 
@@ -44,3 +44,27 @@ vector<int>& t = num1;
 num1 = num2;    // WRONG!这样的交换会直接用num2覆盖原来num1处的数据，导致t也变成了num2的数据！
 num2 = t;
 ```
+## 0005. Longest Palindromic Substring
+
+[Problem description](https://leetcode.com/problems/longest-palindromic-substring/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0005_Longest_Palindromic_Substring/solution.cpp)
+
+### 解题思路
+
+求最长回文子串，使用**动态规划**。
+
+```is_palindromic[i][j]``` 表示从 i 到 j 的子串是否是回文的。
+
+递推关系式：```is_palindromic[i][j] = is_palindromic[i + 1][i + k - 1] && s[i] == s[i + k]  ? 1 : 0;```
+
+初始时：
+
+```cpp
+is_palindromic[i][i] = 1;
+is_palindromic[i][i + 1] = s[i] == s[i + 1] ? 1 : 0;
+```
+
+循环中按照子串长度更新：```is_palindromic[i][i + k]``` k 从 1 到整个字符串长度减 1。
+
+该方法时间复杂度 O(n^2)。
