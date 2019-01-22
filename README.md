@@ -68,3 +68,15 @@ is_palindromic[i][i + 1] = s[i] == s[i + 1] ? 1 : 0;
 循环中按照子串长度更新：```is_palindromic[i][i + k]``` k 从 1 到整个字符串长度减 1。
 
 该方法时间复杂度 O(n^2)。
+
+## 0006. ZigZag Conversion
+
+[Problem description](https://leetcode.com/problems/zigzag-conversion/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0006_ZigZag_Conversion/solution.cpp)
+
+### 解题思路
+
+注意多维数组动态申请和释放。
+
+越界写将产生 **Runtime Error:** ***Error in `sandbox run': free(): invalid next size (fast): \<ADDRESS>***
