@@ -80,3 +80,22 @@ is_palindromic[i][i + 1] = s[i] == s[i + 1] ? 1 : 0;
 注意多维数组动态申请和释放。
 
 越界写将产生 **Runtime Error:** ***Error in `sandbox run': free(): invalid next size (fast): \<ADDRESS>***
+
+## 0007. Reverse Integer
+
+[Problem description](https://leetcode.com/problems/reverse-integer/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0007_Reverse_Integer/solution.cpp)
+
+### 解题思路
+
+题目中要求溢出处理，这时可以用一个**取值范围更大的数**来判断是否溢出：
+
+```cpp
+long long xt = x;
+// ...
+long long rev = 0;
+// ...
+if (rev > INT_MAX)    // Overflow
+    return 0;
+```
