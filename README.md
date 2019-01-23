@@ -99,3 +99,13 @@ long long rev = 0;
 if (rev > INT_MAX)    // Overflow
     return 0;
 ```
+
+## 0008. String to Integer (atoi)
+
+[Problem description](https://leetcode.com/problems/string-to-integer-atoi/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0008_String_to_Integer_(atoi)/solution.cpp)
+
+### 解题思路
+
+溢出处理有更好的方法：从高位向低位十进制移位累加。累加低位前保存原数（old_num），累加后检查是否有 ```new_num / 10 == old_num``` 成立。若不成立，说明已经溢出。
