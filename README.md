@@ -109,3 +109,9 @@ if (rev > INT_MAX)    // Overflow
 ### 解题思路
 
 溢出处理有更好的方法：从高位向低位十进制移位累加。累加低位前保存原数（old_num），累加后检查是否有 ```new_num / 10 == old_num``` 成立。若不成立，说明已经溢出。
+
+## 0009. Palindrome Number
+
+[Problem description](https://leetcode.com/problems/palindrome-number/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0009_Palindrome_Number/solution.cpp)
