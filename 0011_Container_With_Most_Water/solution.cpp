@@ -1,20 +1,17 @@
 class Solution {
 public:
-    bool isPalindrome(int x) {
-        int digit[512];
-        int p = 0;
-        if (x == 0)
-            return true;
-        if (x < 0)
-            return false;
-        while (x != 0)
+    int maxArea(vector<int>& height) {
+        int max_area = INT_MIN;
+        int i = 0, j = height.size() - 1;
+        while (i < j)
         {
-            digit[p++] = x % 10;
-            x /= 10;
+            int min_height = min(height[i], height[j]);
+            max_area = max(max_area, min_height * (j - i));
+            while (i < j && height[i] <= min_height)
+                i++;
+            while (i < j && height[j] <= min_height)
+                j--;
         }
-        for (int i = 0; i < p / 2; i++)
-            if (digit[i] != digit[p - 1 - i])
-                return false;
-        return true;
+        return max_area;
     }
 };
