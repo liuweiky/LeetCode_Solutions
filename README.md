@@ -115,3 +115,13 @@ if (rev > INT_MAX)    // Overflow
 [Problem description](https://leetcode.com/problems/palindrome-number/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0009_Palindrome_Number/solution.cpp)
+
+## 0011. Container With Most Water
+
+[Problem description](https://leetcode.com/problems/container-with-most-water/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0011_Container_With_Most_Water/solution.cpp)
+
+### 解题思路
+
+Two Pointers 方法。i 和 j 指向当前考虑的索引和高度。初始时 i 指向头，j 指向尾。i 随着迭代进行而增大，j 随着迭代进行而减小。对于其中某次迭代，记录当前有效高度 min_height。在决定下次迭代的 i 和 j 时，注意到 j - i 必定减小，要找到更大的面积，**下一次的有效高度应大于本次的有效高度 min_height**。
