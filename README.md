@@ -135,3 +135,13 @@ Two Pointers 方法。i 和 j 指向当前考虑的索引和高度。初始时 i
 ### 解题思路
 
 字符串处理。
+
+## 0013. Roman to Integer
+
+[Problem description](https://leetcode.com/problems/roman-to-integer/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0013_Roman_to_Integer/solution.cpp)
+
+### 解题思路
+
+字符串处理。
