@@ -145,3 +145,13 @@ Two Pointers 方法。i 和 j 指向当前考虑的索引和高度。初始时 i
 ### 解题思路
 
 字符串处理。
+
+## 0014. Longest Common Prefix
+
+[Problem description](https://leetcode.com/problems/longest-common-prefix/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0014_Longest_Common_Prefix/solution.cpp)
+
+### 解题思路
+
+字符串处理。
