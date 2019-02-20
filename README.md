@@ -155,3 +155,23 @@ Two Pointers 方法。i 和 j 指向当前考虑的索引和高度。初始时 i
 ### 解题思路
 
 字符串处理。
+
+## 0015. 3Sum
+
+[Problem description](https://leetcode.com/problems/3sum/)
+
+[C++ (Accepted) - 二分查找 364 ms](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0015_3Sum/solution-binary-search.cpp)
+
+[C++ (Accepted) - Two Pointers 144 ms](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0015_3Sum/solution-two-pointers.cpp)
+
+### 解题思路
+
+先对整个数组进行非降序排序。
+
+#### 二分查找
+
+先固定第一、二个数（p、q 指针），这样也就是要找到 nums[r] = - (nums[p] + nums[q])。使用 low、high 指针二分查找确定 nums[r] 。
+
+#### Two Pointers
+
+先固定第一个数（p 指针），再使用 Two Pointers（q、r 指针）确定剩余两数。
