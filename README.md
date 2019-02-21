@@ -175,3 +175,13 @@ Two Pointers 方法。i 和 j 指向当前考虑的索引和高度。初始时 i
 #### Two Pointers
 
 先固定第一个数（p 指针），再使用 Two Pointers（q、r 指针）确定剩余两数。
+
+## 0016. 3Sum Closest
+
+[Problem description](https://leetcode.com/problems/3sum-closest/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0016_3Sum_Closest/solution.cpp)
+
+### 解题思路
+
+Two Pointers 或 二分查找。
