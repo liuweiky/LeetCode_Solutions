@@ -186,7 +186,7 @@ Two Pointers 方法。i 和 j 指向当前考虑的索引和高度。初始时 i
 
 Two Pointers 或 二分查找。
 
-## 17. Letter Combinations of a Phone Number
+## 0017. Letter Combinations of a Phone Number
 
 [Problem description](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
