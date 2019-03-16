@@ -185,3 +185,13 @@ Two Pointers 方法。i 和 j 指向当前考虑的索引和高度。初始时 i
 ### 解题思路
 
 Two Pointers 或 二分查找。
+
+## 17. Letter Combinations of a Phone Number
+
+[Problem description](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0017_Letter_Combinations_of_a_Phone_Number/solution.cpp)
+
+### 解题思路
+
+DFS。
