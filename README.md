@@ -195,3 +195,13 @@ Two Pointers 或 二分查找。
 ### 解题思路
 
 DFS。
+
+## 0018. 4Sum
+
+[Problem description](https://leetcode.com/problems/4sum/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0018_4Sum/solution.cpp)
+
+### 解题思路
+
+对于 N-Sum 问题，只需遍历前 N-2 个数，对剩余两个数使用 two pointers。若前后两个相邻的数相同，则进行优化，跳过这个与前面一个相同的数。
