@@ -205,3 +205,13 @@ DFS。
 ### 解题思路
 
 对于 N-Sum 问题，只需遍历前 N-2 个数，对剩余两个数使用 two pointers。若前后两个相邻的数相同，则进行优化，跳过这个与前面一个相同的数。
+
+## 0019. Remove Nth Node From End of List
+
+[Problem description](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0019_Remove_Nth_Node_From_End_of_List/solution.cpp)
+
+### 解题思路
+
+链表操作。
