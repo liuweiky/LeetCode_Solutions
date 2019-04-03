@@ -215,3 +215,13 @@ DFS。
 ### 解题思路
 
 链表操作。
+
+## 0020. Valid Parentheses
+
+[Problem description](https://leetcode.com/problems/valid-parentheses/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0020_Valid_Parentheses/solution.cpp)
+
+### 解题思路
+
+表达式栈。
