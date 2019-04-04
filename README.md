@@ -235,3 +235,13 @@ DFS。
 ### 解题思路
 
 链表操作。
+
+## 0022. Generate Parentheses
+
+[Problem description](https://leetcode.com/problems/generate-parentheses/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0022_Generate_Parentheses/solution.cpp)
+
+### 解题思路
+
+回溯。还有很大优化空间。
