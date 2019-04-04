@@ -225,3 +225,13 @@ DFS。
 ### 解题思路
 
 表达式栈。
+
+## 0021. Merge Two Sorted Lists
+
+[Problem description](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0021_Merge_Two_Sorted_Lists/solution.cpp)
+
+### 解题思路
+
+链表操作。
