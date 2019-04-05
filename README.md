@@ -245,3 +245,13 @@ DFS。
 ### 解题思路
 
 回溯。还有很大优化空间。
+
+## 0023. Merge k Sorted Lists
+
+[Problem description](https://leetcode.com/problems/merge-k-sorted-lists/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0023_Merge_k_Sorted_Lists/solution.cpp)
+
+### 解题思路
+
+priority_queue 应用于队列实时调整，又需要取当前队列里最大/最小值的情况。
