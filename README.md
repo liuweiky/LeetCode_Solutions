@@ -255,3 +255,13 @@ DFS。
 ### 解题思路
 
 priority_queue 应用于队列实时调整，又需要取当前队列里最大/最小值的情况。
+
+## 0024. Swap Nodes in Pairs
+
+[Problem description](https://leetcode.com/problems/swap-nodes-in-pairs/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0024_Swap_Nodes_in_Pairs/solution.cpp)
+
+### 解题思路
+
+链表操作。
