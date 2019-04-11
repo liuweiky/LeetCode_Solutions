@@ -265,3 +265,13 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 ### 解题思路
 
 链表操作。
+
+## 0025. Reverse Nodes in k-Group
+
+[Problem description](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0025_Reverse_Nodes_in_k-Group/solution.cpp)
+
+### 解题思路
+
+对于链表元素进行每 k 个元素反转。先利用 vector<ListNode*> 暂存，直到累积到 k 个元素后，进行反转。
