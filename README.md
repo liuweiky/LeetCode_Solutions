@@ -295,3 +295,13 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 ### 解题思路
 
 类似 0026 题。
+
+## 0028. Implement strStr()
+
+[Problem description](https://leetcode.com/problems/implement-strstr/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0028_Implement_strStr()/solution.cpp)
+
+### 解题思路
+
+当然没那么简单啦。实现 KMP 算法，有空再看。
