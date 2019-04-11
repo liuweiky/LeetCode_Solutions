@@ -275,3 +275,13 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 ### 解题思路
 
 对于链表元素进行每 k 个元素反转。先利用 vector<ListNode*> 暂存，直到累积到 k 个元素后，进行反转。
+
+## 0026. Remove Duplicates from Sorted Array
+
+[Problem description](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0026_Remove_Duplicates_from_Sorted_Array/solution.cpp)
+
+### 解题思路
+
+使用两个指针，一个 (ptr) 指向保留的最后一个元素，另一个 (i) 指向遍历元素，i 不断遍历，若两者不等，nums[++ptr] = nums[i]。
