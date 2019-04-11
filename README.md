@@ -285,3 +285,13 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 ### 解题思路
 
 使用两个指针，一个 (ptr) 指向保留的最后一个元素，另一个 (i) 指向遍历元素，i 不断遍历，若两者不等，nums[++ptr] = nums[i]。
+
+## 0027. Remove Element
+
+[Problem description](https://leetcode.com/problems/remove-element/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0027_Remove_Element/solution.cpp)
+
+### 解题思路
+
+类似 0026 题。
