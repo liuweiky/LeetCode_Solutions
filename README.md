@@ -323,3 +323,13 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 > 1 2 **5** [6 **4** 3]
 > 
 > 1 2 5 [3 4 6] (Next Permutation)
+
+## 0035. Search Insert Position
+
+[Problem description](https://leetcode.com/problems/search-insert-position/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0035_Search_Insert_Position/solution.cpp)
+
+### 解题思路
+
+二分查找，查找失败后 low 指针即为插入位置。
