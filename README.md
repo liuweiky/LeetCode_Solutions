@@ -305,3 +305,21 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 ### 解题思路
 
 当然没那么简单啦。实现 KMP 算法，有空再看。
+
+## 0031. Next Permutation
+
+[Problem description](https://leetcode.com/problems/next-permutation/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0031_Next_Permutation/solution.cpp)
+
+### 解题思路
+
+生成下一个排列。
+
+从后往前找第一个满足 nums[i - 1] < nums[i] 的，即，从后往前第一个下降的。则 nums[i], nums[i + 1], nums[i + 2], . . . 序列必然是非增的。从 nums[i], nums[i + 1], nums[i + 2], . . . 序列中选择最小的，但是比 nums[i - 1] 大的数 nums[k]。将 nums[i - 1] 与 nums[k] 交换，对交换后的 nums[i], nums[i + 1], nums[i + 2], . . . 进行倒序，即为下一个排列。
+
+> 1 2 4 [6 5 3]
+> 
+> 1 2 **5** [6 **4** 3]
+> 
+> 1 2 5 [3 4 6] (Next Permutation)
