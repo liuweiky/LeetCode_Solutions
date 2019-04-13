@@ -324,6 +324,18 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 > 
 > 1 2 5 [3 4 6] (Next Permutation)
 
+## 0032. Longest Valid Parentheses
+
+[Problem description](https://leetcode.com/problems/longest-valid-parentheses/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0032_Longest_Valid_Parentheses/solution.cpp)
+
+### 解题思路
+
+求最长有效括号序列。
+
+使用 stack 进行模拟。进栈后能出栈的字符是有效的。对这些有效位置进行[打表](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0032_Longest_Valid_Parentheses/solution.cpp#L27)，之后使用[动态规划](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0032_Longest_Valid_Parentheses/solution.cpp#L46)求出最长连续有效字符。
+
 ## 0035. Search Insert Position
 
 [Problem description](https://leetcode.com/problems/search-insert-position/)
