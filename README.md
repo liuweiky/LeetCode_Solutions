@@ -336,6 +336,16 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 
 使用 stack 进行模拟。进栈后能出栈的字符是有效的。对这些有效位置进行[打表](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0032_Longest_Valid_Parentheses/solution.cpp#L27)，之后使用[动态规划](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0032_Longest_Valid_Parentheses/solution.cpp#L46)求出最长连续有效字符。
 
+## 0033. Search in Rotated Sorted Array
+
+[Problem description](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0033_Search_in_Rotated_Sorted_Array/solution.cpp)
+
+### 解题思路
+
+二分查找。思路：[Java AC Solution using once binary search - LeetCode Discuss](https://leetcode.com/problems/search-in-rotated-sorted-array/discuss/14472/Java-AC-Solution-using-once-binary-search)
+
 ## 0035. Search Insert Position
 
 [Problem description](https://leetcode.com/problems/search-insert-position/)
