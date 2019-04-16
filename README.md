@@ -355,3 +355,13 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 ### 解题思路
 
 二分查找，查找失败后 low 指针即为插入位置。
+
+## 0036. Valid Sudoku
+
+[Problem description](https://leetcode.com/problems/valid-sudoku/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0036_Valid_Sudoku/solution.cpp)
+
+### 解题思路
+
+遍历，打表检查。
