@@ -365,3 +365,13 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 ### 解题思路
 
 遍历，打表检查。
+
+## 0037. Sudoku Solver
+
+[Problem description](https://leetcode.com/problems/sudoku-solver/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0037_Sudoku_Solver/solution.cpp)
+
+### 解题思路
+
+DFS。检查是否可行时，无需全局检查，只需检查改变了的列和 9 个方格。
