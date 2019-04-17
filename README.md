@@ -391,3 +391,13 @@ stringstream ss
 ss.str("");
 ss.clear();
 ```
+
+## 0039. Combination Sum
+
+[Problem description](https://leetcode.com/problems/combination-sum/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0039_Combination_Sum/solution.cpp)
+
+### 解题思路
+
+DFS。注意使用有序数列进行[非降 DFS](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0039_Combination_Sum/solution.cpp#L19)保证所求结果没用重复，注意参数中的 i 所发挥的作用。
