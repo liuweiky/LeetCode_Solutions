@@ -375,3 +375,19 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 ### 解题思路
 
 DFS。检查是否可行时，无需全局检查，只需检查改变了的列和 9 个方格。
+
+## 0038. Count and Say
+
+[Problem description](https://leetcode.com/problems/count-and-say/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0038_Count_and_Say/solution.cpp)
+
+### 解题思路
+
+无论如何确信，使用 stringstream 前先清空！
+
+```cpp
+stringstream ss
+ss.str("");
+ss.clear();
+```
