@@ -346,6 +346,16 @@ priority_queue 应用于队列实时调整，又需要取当前队列里最大/�
 
 二分查找。思路：[Java AC Solution using once binary search - LeetCode Discuss](https://leetcode.com/problems/search-in-rotated-sorted-array/discuss/14472/Java-AC-Solution-using-once-binary-search)
 
+## 0034. Find First and Last Position of Element in Sorted Array
+
+[Problem description](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/solution.cpp)
+
+### 解题思路
+
+二分查找，找到下界和上界（lower_bound、upper_bound）。
+
 ## 0035. Search Insert Position
 
 [Problem description](https://leetcode.com/problems/search-insert-position/)
