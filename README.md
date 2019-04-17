@@ -401,3 +401,13 @@ ss.clear();
 ### 解题思路
 
 DFS。注意使用有序数列进行[非降 DFS](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0039_Combination_Sum/solution.cpp#L19)保证所求结果没用重复，注意参数中的 i 所发挥的作用。
+
+## 0040. Combination Sum II
+
+[Problem description](https://leetcode.com/problems/combination-sum-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0040_Combination_Sum_II/solution.cpp)
+
+### 解题思路
+
+DFS 剪枝的重要思路：**排序、非降、同一层中不重复搜索相同值的元素**。
