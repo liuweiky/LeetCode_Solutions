@@ -421,3 +421,15 @@ DFS。注意使用有序数列进行[非降 DFS](https://github.com/Heliovic/Lee
 ### 解题思路
 
 DFS 剪枝的重要思路：**排序、非降、同一层中不重复搜索相同值的元素**。
+
+## 0042. Trapping Rain Water
+
+[Problem description](https://leetcode.com/problems/trapping-rain-water/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0042_Trapping_Rain_Water/solution.cpp)
+
+### 解题思路
+
+使用两个指针，i 指针固定，j 指针从 i + 1 开始移动，找到第一个比 i 大的高度。计算 i、j 之间的体积，之后令 i = j，如此迭代。当 j == height.size() 时，说明 i 之后没有比 i 更高的了，这时应找到 i 和 j 之间比 i 小的最高的那个，记为 max_idx ，计算 i 和 max_idx 的体积，之后令 i = max_idx，继续迭代。
+
+做题时请不要强迫症，该特判时果断特判！
