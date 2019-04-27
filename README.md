@@ -443,3 +443,17 @@ DFS 剪枝的重要思路：**排序、非降、同一层中不重复搜索相�
 ### 解题思路
 
 大数乘法。
+
+## 0045. Jump Game II
+
+[Problem description](https://leetcode.com/problems/jump-game-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0045_Jump_Game_II/solution.cpp)
+
+### 解题思路
+
+farthest 保存当前可以到达的最大索引。3
+
+ptr 是当前考虑的那个 num 下标，显然，farthest = max(farthest, ptr + num = ptr + nums[ptr])。
+
+cur 是前一时刻可以到达的最大下标，当 ptr 超过 cur 时，cur 更新为前一次所能达到的最大距离，并跳数++。
