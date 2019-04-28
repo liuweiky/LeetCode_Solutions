@@ -487,3 +487,13 @@ cur 是前一时刻可以到达的最大下标，当 ptr 超过 cur 时，cur �
 ### 解题思路
 
 矩阵旋转等价于：先将矩阵转置，再对矩阵进行左右翻转（镜像）。
+
+## 0049. Group Anagrams
+
+[Problem description](https://leetcode.com/problems/group-anagrams/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0049_Group_Anagrams/solution.cpp)
+
+### 解题思路
+
+STL 的 map 的使用。
