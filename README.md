@@ -477,3 +477,13 @@ cur 是前一时刻可以到达的最大下标，当 ptr 超过 cur 时，cur �
 ### 解题思路
 
 求**多重集**的全排列。
+
+## 0048. Rotate Image
+
+[Problem description](https://leetcode.com/problems/rotate-image/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0048_Rotate_Image/solution.cpp)
+
+### 解题思路
+
+矩阵旋转等价于：先将矩阵转置，再对矩阵进行左右翻转（镜像）。
