@@ -467,3 +467,13 @@ cur 是前一时刻可以到达的最大下标，当 ptr 超过 cur 时，cur �
 ### 解题思路
 
 求全排列。
+
+## 0047. Permutations II
+
+[Problem description](https://leetcode.com/problems/permutations-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0047_Permutations_II/solution.cpp)
+
+### 解题思路
+
+求**多重集**的全排列。
