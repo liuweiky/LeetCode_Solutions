@@ -457,3 +457,13 @@ farthest 保存当前可以到达的最大索引。3
 ptr 是当前考虑的那个 num 下标，显然，farthest = max(farthest, ptr + num = ptr + nums[ptr])。
 
 cur 是前一时刻可以到达的最大下标，当 ptr 超过 cur 时，cur 更新为前一次所能达到的最大距离，并跳数++。
+
+## 0046. Permutations
+
+[Problem description](https://leetcode.com/problems/permutations/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0046_Permutations/solution.cpp)
+
+### 解题思路
+
+求全排列。
