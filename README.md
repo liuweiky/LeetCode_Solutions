@@ -502,7 +502,7 @@ STL 的 map 的使用。
 
 [Problem description](https://leetcode.com/problems/powx-n/)
 
-[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0050_Pow(x, n)/solution.cpp)
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0050_Pow(x%2C%20n)/solution.cpp)
 
 ### 解题思路
 
