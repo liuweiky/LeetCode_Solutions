@@ -507,3 +507,13 @@ STL 的 map 的使用。
 ### 解题思路
 
 快速幂。注意在 int 范围内，-INT_MIN 会溢出。
+
+## 0051. N-Queens
+
+[Problem description](https://leetcode.com/problems/n-queens/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0051_N-Queens/solution.cpp)
+
+### 解题思路
+
+N 皇后问题。
