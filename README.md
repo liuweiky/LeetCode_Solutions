@@ -497,3 +497,13 @@ cur 是前一时刻可以到达的最大下标，当 ptr 超过 cur 时，cur �
 ### 解题思路
 
 STL 的 map 的使用。
+
+## 0050. Pow(x, n)
+
+[Problem description](https://leetcode.com/problems/powx-n/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0050_Pow(x, n)/solution.cpp)
+
+### 解题思路
+
+快速幂。注意在 int 范围内，-INT_MIN 会溢出。
