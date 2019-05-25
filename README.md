@@ -517,3 +517,13 @@ STL 的 map 的使用。
 ### 解题思路
 
 N 皇后问题。
+
+## 0052. N-Queens II
+
+[Problem description](https://leetcode.com/problems/n-queens-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0052_N-Queens_II/solution.cpp)
+
+### 解题思路
+
+N 皇后问题。
