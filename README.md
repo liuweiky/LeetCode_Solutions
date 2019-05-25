@@ -527,3 +527,13 @@ N 皇后问题。
 ### 解题思路
 
 N 皇后问题。
+
+## 0053. Maximum Subarray
+
+[Problem description](https://leetcode.com/problems/maximum-subarray/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0053_Maximum_Subarray/solution.cpp)
+
+### 解题思路
+
+动态规划求最长连续子串和。
