@@ -537,3 +537,13 @@ N 皇后问题。
 ### 解题思路
 
 动态规划求最长连续子串和。
+
+## 0054. Spiral Matrix
+
+[Problem description](https://leetcode.com/problems/spiral-matrix/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0054_Spiral_Matrix/solution.cpp)
+
+### 解题思路
+
+简单模拟。
