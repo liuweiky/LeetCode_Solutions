@@ -547,3 +547,13 @@ N 皇后问题。
 ### 解题思路
 
 简单模拟。
+
+## 0055. Jump Game
+
+[Problem description](https://leetcode.com/problems/jump-game/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0055_Jump_Game/solution.cpp)
+
+### 解题思路
+
+参照 [0045. Jump Game II](https://github.com/Heliovic/LeetCode_Solutions#0045-jump-game-ii)。
