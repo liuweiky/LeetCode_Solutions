@@ -567,3 +567,13 @@ N 皇后问题。
 ### 解题思路
 
 合并区间。先将所有区间按照左数从小到大排序，再用 last 记录当前正在合并的区间。若对于考虑的某个区间，若其左数小于 last 的右数而其右数大于 last 的右数，则拓展 last 的右数到当前区间的右数。而若其右数小于 last 的右数，则说明该区间包含在 last 之内，可不必考虑。若其左数大于 last 的右数，则保存 last 到 ans，更新 last 为该区间。
+
+## 0057. Insert Interval
+
+[Problem description](https://leetcode.com/problems/insert-interval/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0057_Insert_Interval/solution.cpp)
+
+### 解题思路
+
+同上。
