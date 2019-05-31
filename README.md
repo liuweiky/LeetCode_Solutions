@@ -587,3 +587,13 @@ N 皇后问题。
 ### 解题思路
 
 字符串处理。
+
+## 0059. Spiral Matrix II
+
+[Problem description]https://leetcode.com/problems/spiral-matrix-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0059_Spiral_Matrix_II/solution.cpp)
+
+### 解题思路
+
+模拟。
