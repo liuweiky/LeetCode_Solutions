@@ -577,3 +577,13 @@ N 皇后问题。
 ### 解题思路
 
 同上。
+
+## 0058. Length of Last Word
+
+[Problem description](https://leetcode.com/problems/length-of-last-word/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0058_Length_of_Last_Word/solution.cpp)
+
+### 解题思路
+
+字符串处理。
