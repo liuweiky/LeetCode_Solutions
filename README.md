@@ -607,3 +607,13 @@ N 皇后问题。
 ### 解题思路
 
 找规律。对于某个长度为 n 的子序列的第 k 个元素，其首位为 numbers[k / (n - 1)!]。其中 numbers 保存当前可选的数字序列。
+
+## 0061. Rotate List
+
+[Problem description](https://leetcode.com/problems/rotate-list/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0061_Rotate_List/solution.cpp)
+
+### 解题思路
+
+模拟，链表操作。
