@@ -627,3 +627,13 @@ N 皇后问题。
 ### 解题思路
 
 递推。matrix[i][j] = matrix[i + 1][j] + matrix[i][j + 1]。初始时，matrix[m - 1][n - 1] = 1。
+
+## 0063. Unique Paths II
+
+[Problem description](https://leetcode.com/problems/unique-paths-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0063_Unique_Paths_II/solution.cpp)
+
+### 解题思路
+
+递推。
