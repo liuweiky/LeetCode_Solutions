@@ -617,3 +617,13 @@ N 皇后问题。
 ### 解题思路
 
 模拟，链表操作。
+
+## 0062. Unique Paths
+
+[Problem description](https://leetcode.com/problems/unique-paths/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0062_Unique_Paths/solution.cpp)
+
+### 解题思路
+
+递推。matrix[i][j] = matrix[i + 1][j] + matrix[i][j + 1]。初始时，matrix[m - 1][n - 1] = 1。
