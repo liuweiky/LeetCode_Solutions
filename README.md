@@ -647,3 +647,13 @@ N 皇后问题。
 ### 解题思路
 
 动态规划。
+
+## 0066. Plus One
+
+[Problem description](https://leetcode.com/problems/plus-one/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0066_Plus_One/solution.cpp)
+
+### 解题思路
+
+模拟加法。
