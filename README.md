@@ -637,3 +637,13 @@ N 皇后问题。
 ### 解题思路
 
 递推。
+
+## 0064. Minimum Path Sum
+
+[Problem description](https://leetcode.com/problems/minimum-path-sum/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0064_Minimum_Path_Sum/solution.cpp)
+
+### 解题思路
+
+动态规划。
