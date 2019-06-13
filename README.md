@@ -657,3 +657,13 @@ N 皇后问题。
 ### 解题思路
 
 模拟加法。
+
+## 0067. Add Binary
+
+[Problem description](https://leetcode.com/problems/add-binary/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0067_Add_Binary/solution.cpp)
+
+### 解题思路
+
+二进制。
