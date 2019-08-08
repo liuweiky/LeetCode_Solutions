@@ -666,4 +666,14 @@ N 皇后问题。
 
 ### 解题思路
 
-二进制。
+二进制加法。
+
+## 0068. Text Justification
+
+[Problem description](https://leetcode.com/problems/add-binary/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0068_Text_Justification/solution.cpp)
+
+### 解题思路
+
+字符串处理。
