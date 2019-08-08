@@ -670,10 +670,20 @@ N 皇后问题。
 
 ## 0068. Text Justification
 
-[Problem description](https://leetcode.com/problems/add-binary/)
+[Problem description](https://leetcode.com/problems/text-justification/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0068_Text_Justification/solution.cpp)
 
 ### 解题思路
 
 字符串处理。
+
+## 0069. Sqrt(x)
+
+[Problem description](https://leetcode.com/problems/sqrtx/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0069_Sqrt(x)/solution.cpp)
+
+### 解题思路
+
+二分。
