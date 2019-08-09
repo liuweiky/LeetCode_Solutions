@@ -697,3 +697,13 @@ N 皇后问题。
 ### 解题思路
 
 记忆化递推。
+
+## 0071. Simplify Path
+
+[Problem description](https://leetcode.com/problems/simplify-path/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0071_Simplify_Path/solution.cpp)
+
+### 解题思路
+
+字符串处理。先用 "/" 替换 "//"，再根据 "/" 进行分割。使用栈模拟路径转移。
