@@ -707,3 +707,9 @@ N 皇后问题。
 ### 解题思路
 
 字符串处理。先用 "/" 替换 "//"，再根据 "/" 进行分割。使用栈模拟路径转移。
+
+## 0073. Set Matrix Zeroes
+
+[Problem description](https://leetcode.com/problems/set-matrix-zeroes/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0073_Set_Matrix_Zeroes/solution.cpp)
