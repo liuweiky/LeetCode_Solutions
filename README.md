@@ -713,3 +713,13 @@ N 皇后问题。
 [Problem description](https://leetcode.com/problems/set-matrix-zeroes/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0073_Set_Matrix_Zeroes/solution.cpp)
+
+## 0074. Search a 2D Matrix
+
+[Problem description](https://leetcode.com/problems/search-a-2d-matrix/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0074_Search_a_2D_Matrix/solution.cpp)
+
+### 解题思路
+
+二分查找。
