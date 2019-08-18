@@ -743,3 +743,13 @@ N 皇后问题。
 ### 解题思路
 
 DFS，组合数生成。
+
+## 0078. Subsets
+
+[Problem description](https://leetcode.com/problems/subsets/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0078_Subsets/solution.cpp)
+
+### 解题思路
+
+DFS，子集生成。
