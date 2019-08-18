@@ -733,3 +733,13 @@ N 皇后问题。
 ### 解题思路
 
 模拟，Two Pointers。
+
+## 0077. Combinations
+
+[Problem description](https://leetcode.com/problems/combinations/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0077_Combinations/solution.cpp)
+
+### 解题思路
+
+DFS，组合数生成。
