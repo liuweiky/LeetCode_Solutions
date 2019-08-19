@@ -763,3 +763,13 @@ DFS，子集生成。
 ### 解题思路
 
 DFS。
+
+## 0080. Remove Duplicates from Sorted Array II
+
+[Problem description](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0080_Remove_Duplicates_from_Sorted_Array_II/solution.cpp)
+
+### 解题思路
+
+Two Pointers。
