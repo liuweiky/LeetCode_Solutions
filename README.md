@@ -753,3 +753,13 @@ DFS，组合数生成。
 ### 解题思路
 
 DFS，子集生成。
+
+## 0079. Word Search
+
+[Problem description](https://leetcode.com/problems/word-search/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0079_Word_Search/solution.cpp)
+
+### 解题思路
+
+DFS。
