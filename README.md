@@ -782,6 +782,16 @@ Two Pointers。
 
 ### 解题思路
 
-二分查找。相关体型见 [0033. Search in Rotated Sorted Array](https://github.com/Heliovic/LeetCode_Solutions#0033-search-in-rotated-sorted-array)
+二分查找。相关题型见 [0033. Search in Rotated Sorted Array](https://github.com/Heliovic/LeetCode_Solutions#0033-search-in-rotated-sorted-array)
 
 这里与第 33 题不同之处在于，该数组中可能会有重复元素，这样当 nums[low] == nums[mid] 时，无法判断应该向左还是向右移动。可以使用[此处](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/discuss/28218/My-8ms-C%2B%2B-solution-(o(logn)-on-average-o(n)-worst-case))的 trick 处理掉这种情况。代码见 https://github.com/Heliovic/LeetCode_Solutions/blob/master/0081_Search_in_Rotated_Sorted_Array_II/solution.cpp#L12
+
+## 0082. Remove Duplicates from Sorted List II
+
+[Problem description](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0082_Remove_Duplicates_from_Sorted_List_II/solution.cpp)
+
+### 解题思路
+
+链表去重。
