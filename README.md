@@ -795,3 +795,13 @@ Two Pointers。
 ### 解题思路
 
 链表去重。
+
+## 0083. Remove Duplicates from Sorted List
+
+[Problem description](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0083_Remove_Duplicates_from_Sorted_List/solution.cpp)
+
+### 解题思路
+
+链表操作。
