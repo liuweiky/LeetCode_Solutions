@@ -805,3 +805,19 @@ Two Pointers。
 ### 解题思路
 
 链表操作。
+
+## 0084. Largest Rectangle in Histogram
+
+[Problem description](https://leetcode.com/problems/largest-rectangle-in-histogram/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0084_Largest_Rectangle_in_Histogram/solution.cpp)
+
+### 解题思路
+
+直方图最大矩形面积。
+
+算法参考：
+
+https://blog.csdn.net/u012534831/article/details/74356851
+
+https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/O(n)-stack-based-JAVA-solution
