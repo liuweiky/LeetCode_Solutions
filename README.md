@@ -849,3 +849,9 @@ https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/O(n)-
 2. s1 子串 s11(0~len-1) 和 s2 子串 s11(s2.size() - len, s2.size() - 1) 是 Scramble String 且 s1 子串 s11(s1.size() - len, s1.size() - 1) 和 s2 子串 s11(0~len-1) 是 Scramble String
 
 若对所有长度都不满足，则不是 Scramble String
+
+## 0088. Merge Sorted Array
+
+[Problem description](https://leetcode.com/problems/merge-sorted-array/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0088_Merge_Sorted_Array/solution.cpp)
