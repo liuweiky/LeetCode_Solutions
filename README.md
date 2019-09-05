@@ -831,3 +831,21 @@ https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/O(n)-
 ### 解题思路
 
 链表操作。
+
+## 0087. Scramble String
+
+[Problem description](https://leetcode.com/problems/scramble-string/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0087_Scramble_String/solution.cpp)
+
+### 解题思路
+
+递归判断。若两字符串是 Scramble String，则必有长度相等且字符串中每个字符出现次数相等。递归出口是输入的两个字符串相等。
+
+递归过程：对于给定的某个长度 len，以下应有一条满足：
+
+1. s1 子串 s11(0~len-1) 和 s2 子串 s21(0~len-1) 是 Scramble String 且 s1 子串 s12(s1.size() - len, s1.size() - 1) 和 s2 子串 s22(s2.size() - len, s2.size() - 1) 是 Scramble String
+
+2. s1 子串 s11(0~len-1) 和 s2 子串 s11(s2.size() - len, s2.size() - 1) 是 Scramble String 且 s1 子串 s11(s1.size() - len, s1.size() - 1) 和 s2 子串 s11(0~len-1) 是 Scramble String
+
+若对所有长度都不满足，则不是 Scramble String
