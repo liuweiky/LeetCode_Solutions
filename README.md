@@ -821,3 +821,13 @@ Two Pointers。
 https://blog.csdn.net/u012534831/article/details/74356851
 
 https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/O(n)-stack-based-JAVA-solution
+
+## 0086. Partition List
+
+[Problem description](https://leetcode.com/problems/partition-list/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0086_Partition_List/solution.cpp)
+
+### 解题思路
+
+链表操作。
