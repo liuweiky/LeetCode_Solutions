@@ -855,3 +855,15 @@ https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/O(n)-
 [Problem description](https://leetcode.com/problems/merge-sorted-array/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0088_Merge_Sorted_Array/solution.cpp)
+
+## 0089. Gray Code
+
+[Problem description](https://leetcode.com/problems/gray-code/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0089_Gray_Code/solution.cpp)
+
+### 解题思路
+
+在前一个 n 的基础上构造 n + 1。构造方法：将 n 的结果复制一遍，在加入 n 的倒序，并将这些高位置 1。
+
+https://leetcode.com/problems/gray-code/discuss/29891/Share-my-solution
