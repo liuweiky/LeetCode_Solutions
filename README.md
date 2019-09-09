@@ -895,3 +895,13 @@ DFS 构建子集。特别注意[此处去重复操作](https://github.com/Heliov
 * 当 str[i] 合法而 str[i - 1] + str[i] 非法时，dp[i] = dp[i - 1]
 
 * 当 str[i] 合法且 str[i - 1] + str[i] 合法时，dp[i] = dp[i - 1] + dp[i - 2]
+
+## 0092. Reverse Linked List II
+
+[Problem description](https://leetcode.com/problems/reverse-linked-list-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0092_Reverse_Linked_List_II/solution.cpp)
+
+### 解题思路
+
+链表操作
