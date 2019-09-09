@@ -904,4 +904,14 @@ DFS 构建子集。特别注意[此处去重复操作](https://github.com/Heliov
 
 ### 解题思路
 
-链表操作
+链表操作。
+
+## 0093. Restore IP Addresses
+
+[Problem description](https://leetcode.com/problems/restore-ip-addresses/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0093_Restore_IP_Addresses/solution.cpp)
+
+### 解题思路
+
+DFS。
