@@ -867,3 +867,13 @@ https://leetcode.com/problems/largest-rectangle-in-histogram/discuss/28900/O(n)-
 在前一个 n 的基础上构造 n + 1。构造方法：将 n 的结果复制一遍，在加入 n 的倒序，并将这些高位置 1。
 
 https://leetcode.com/problems/gray-code/discuss/29891/Share-my-solution
+
+## 0090. Subsets II
+
+[Problem description](https://leetcode.com/problems/subsets-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0090_Subsets_II/solution.cpp)
+
+### 解题思路
+
+DFS 构建子集。特别注意[此处去重复操作](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0090_Subsets_II/solution.cpp#L18)。
