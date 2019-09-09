@@ -877,3 +877,21 @@ https://leetcode.com/problems/gray-code/discuss/29891/Share-my-solution
 ### 解题思路
 
 DFS 构建子集。特别注意[此处去重复操作](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0090_Subsets_II/solution.cpp#L18)。
+
+## 0091. Decode Ways
+
+[Problem description](https://leetcode.com/problems/decode-ways/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0091_Decode_Ways/solution.cpp)
+
+### 解题思路
+
+动态规划。设 dp[i] 为长度为 i 的串存在的方案数，则有：
+
+* 当 str[i] == '0' 而 str[i - 1] + str[i] 非法时，dp[i] = 0
+
+* 当 str[i] == '0' 而 str[i - 1] + str[i] 在 [1, 26] 范围内时，dp[i] = dp[i - 2]
+
+* 当 str[i] 合法而 str[i - 1] + str[i] 非法时，dp[i] = dp[i - 1]
+
+* 当 str[i] 合法且 str[i - 1] + str[i] 合法时，dp[i] = dp[i - 1] + dp[i - 2]
