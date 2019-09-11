@@ -967,3 +967,9 @@ DFS。
 ### 解题思路
 
 DFS。
+
+## 0100. Same Tree
+
+[Problem description](https://leetcode.com/problems/same-tree/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0100_Same_Tree/solution.cpp)
