@@ -973,3 +973,9 @@ DFS。
 [Problem description](https://leetcode.com/problems/same-tree/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0100_Same_Tree/solution.cpp)
+
+## 0101. Symmetric Tree
+
+[Problem description](https://leetcode.com/problems/symmetric-tree/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0101_Symmetric_Tree/solution.cpp)
