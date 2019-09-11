@@ -957,3 +957,13 @@ DFS。
 ### 解题思路
 
 记忆化搜索或DP。
+
+## 0098. Validate Binary Search Tree
+
+[Problem description](https://leetcode.com/problems/validate-binary-search-tree/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0098_Validate_Binary_Search_Tree/solution.cpp)
+
+### 解题思路
+
+DFS。
