@@ -991,3 +991,9 @@ DFS。
 [Problem description](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0103_Binary_Tree_Zigzag_Level_Order_Traversal/solution.cpp)
+
+## 0104. Maximum Depth of Binary Tree
+
+[Problem description](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0104_Maximum_Depth_of_Binary_Tree/solution.cpp)
