@@ -937,3 +937,13 @@ DFS。
 递归构建所有可能的子树。
 
 由于二叉树序列是有序的。create(lp, rp) 意为构建从 lp 到 rp 的所有子树的根节点。则其构造过程为：遍历 [lp, rp]，分别作为根，递归构建其左右子树的根。
+
+## 0096. Unique Binary Search Trees
+
+[Problem description](https://leetcode.com/problems/unique-binary-search-trees/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0096_Unique_Binary_Search_Trees/solution.cpp)
+
+### 解题思路
+
+记忆化搜索或DP。
