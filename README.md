@@ -1033,3 +1033,13 @@ DFS。
 ### 解题思路
 
 分治，将左右子树一分为二，各占一半后继续构建。
+
+## 0109. Convert Sorted List to Binary Search Tree
+
+[Problem description](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0109_Convert_Sorted_List_to_Binary_Search_Tree/solution.cpp)
+
+### 解题思路
+
+先遍历一次链表，确定有多少个数，再使用中序遍历的方式，确定左右子树的节点个数相同，构建二叉查找树。
