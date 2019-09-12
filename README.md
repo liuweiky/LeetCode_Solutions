@@ -1007,3 +1007,13 @@ DFS。
 ### 解题思路
 
 二叉树重建。
+
+## 0106. Construct Binary Tree from Inorder and Postorder Traversal
+
+[Problem description](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0106_Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal/solution.cpp)
+
+### 解题思路
+
+二叉树重建。
