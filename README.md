@@ -1043,3 +1043,9 @@ DFS。
 ### 解题思路
 
 先遍历一次链表，确定有多少个数，再使用中序遍历的方式，确定左右子树的节点个数相同，构建二叉查找树。
+
+## 0110. Balanced Binary Tree
+
+[Problem description](https://leetcode.com/problems/balanced-binary-tree/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0110_Balanced_Binary_Tree/solution.cpp)
