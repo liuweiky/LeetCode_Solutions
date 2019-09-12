@@ -1023,3 +1023,13 @@ DFS。
 [Problem description](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0107_Binary_Tree_Level_Order_Traversal_II/solution.cpp)
+
+## 0108. Convert Sorted Array to Binary Search Tree
+
+[Problem description](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0108_Convert_Sorted_Array_to_Binary_Search_Tree/solution.cpp)
+
+### 解题思路
+
+分治，将左右子树一分为二，各占一半后继续构建。
