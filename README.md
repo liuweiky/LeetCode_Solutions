@@ -997,3 +997,13 @@ DFS。
 [Problem description](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0104_Maximum_Depth_of_Binary_Tree/solution.cpp)
+
+## 0105. Construct Binary Tree from Preorder and Inorder Traversal
+
+[Problem description](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal/solution.cpp)
+
+### 解题思路
+
+二叉树重建。
