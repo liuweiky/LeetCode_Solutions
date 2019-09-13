@@ -1102,3 +1102,9 @@ dp[i][j] 表示以 s[i] 和 t[j] 结尾的两个字符串所可能的方案数�
 [Problem description](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0117_Populating_Next_Right_Pointers_in_Each_Node_II/solution.cpp)
+
+## 0118. Pascal's Triangle
+
+[Problem description](https://leetcode.com/problems/pascals-triangle/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0118_Pascal's_Triangle/solution.cpp)
