@@ -1059,3 +1059,9 @@ DFS。
 ### 解题思路
 
 求深度先考虑 BFS。
+
+## 0112. Path Sum
+
+[Problem description](https://leetcode.com/problems/path-sum/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0112_Path_Sum/solution.cpp)
