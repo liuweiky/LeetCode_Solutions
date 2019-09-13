@@ -1065,3 +1065,9 @@ DFS。
 [Problem description](https://leetcode.com/problems/path-sum/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0112_Path_Sum/solution.cpp)
+
+## 0113. Path Sum II
+
+[Problem description](https://leetcode.com/problems/path-sum-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0113_Path_Sum_II/solution.cpp)
