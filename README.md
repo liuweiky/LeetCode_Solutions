@@ -1130,3 +1130,13 @@ dp[i][j] 表示以 s[i] 和 t[j] 结尾的两个字符串所可能的方案数�
 [Problem description](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0121_Best_Time_to_Buy_and_Sell_Stock/solution.cpp)
+
+## 0122. Best Time to Buy and Sell Stock II
+
+[Problem description](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0122_Best_Time_to_Buy_and_Sell_Stock_II/solution.cpp)
+
+### 解题思路
+
+求一个序列中能获得的最大收益。只需关注单调不减的那些子序列即可。
