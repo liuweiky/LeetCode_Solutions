@@ -1096,3 +1096,9 @@ dp[i][j] 表示以 s[i] 和 t[j] 结尾的两个字符串所可能的方案数�
 [Problem description](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0116_Populating_Next_Right_Pointers_in_Each_Node/solution.cpp)
+
+## 0117. Populating Next Right Pointers in Each Node II
+
+[Problem description](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0117_Populating_Next_Right_Pointers_in_Each_Node_II/solution.cpp)
