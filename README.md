@@ -1071,3 +1071,22 @@ DFS。
 [Problem description](https://leetcode.com/problems/path-sum-ii/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0113_Path_Sum_II/solution.cpp)
+
+## 0115. Distinct Subsequences
+
+[Problem description](https://leetcode.com/problems/distinct-subsequences/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0115_Distinct_Subsequences/solution.cpp)
+
+### 解题思路
+
+动态规划。
+
+dp[i][j] 表示以 s[i] 和 t[j] 结尾的两个字符串所可能的方案数，则：
+
+* 若 s[i] == t[j]，则 dp[i][j] 可能的方案数：
+    * 不取 s[i] 这个字符与 t[j] 匹配，有 dp[i - 1][j] 种方案
+    * 取 s[i] 这个字符与 t[j] 匹配，，有 dp[i - 1][j - 1] 种方案
+    * 所以，dp[i][j] = dp[i - 1][j] + dp[i - 1][j - 1]
+
+* 若 s[i] != t[j]，则 dp[i][j] 可能的方案数为 dp[i - 1][j]
