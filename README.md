@@ -1049,3 +1049,13 @@ DFS。
 [Problem description](https://leetcode.com/problems/balanced-binary-tree/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0110_Balanced_Binary_Tree/solution.cpp)
+
+## 0111. Minimum Depth of Binary Tree
+
+[Problem description](https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0111_Minimum_Depth_of_Binary_Tree/solution.cpp)
+
+### 解题思路
+
+求深度先考虑 BFS。
