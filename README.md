@@ -1090,3 +1090,9 @@ dp[i][j] 表示以 s[i] 和 t[j] 结尾的两个字符串所可能的方案数�
     * 所以，dp[i][j] = dp[i - 1][j] + dp[i - 1][j - 1]
 
 * 若 s[i] != t[j]，则 dp[i][j] 可能的方案数为 dp[i - 1][j]
+
+## 0116. Populating Next Right Pointers in Each Node
+
+[Problem description](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0116_Populating_Next_Right_Pointers_in_Each_Node/solution.cpp)
