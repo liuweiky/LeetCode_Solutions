@@ -1108,3 +1108,9 @@ dp[i][j] 表示以 s[i] 和 t[j] 结尾的两个字符串所可能的方案数�
 [Problem description](https://leetcode.com/problems/pascals-triangle/)
 
 [C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0118_Pascal's_Triangle/solution.cpp)
+
+## 0121. Best Time to Buy and Sell Stock
+
+[Problem description](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/0121_Best_Time_to_Buy_and_Sell_Stock/solution.cpp)
