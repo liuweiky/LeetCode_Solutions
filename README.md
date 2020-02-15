@@ -1140,3 +1140,13 @@ dp[i][j] 表示以 s[i] 和 t[j] 结尾的两个字符串所可能的方案数�
 ### 解题思路
 
 求一个序列中能获得的最大收益。只需关注单调不减的那些子序列即可。
+
+## 0125. Valid Palindrome
+
+[Problem description](https://leetcode.com/problems/valid-palindrome/)
+
+[C++ (Accepted)](https://github.com/Heliovic/LeetCode_Solutions/blob/master/125_Valid_Palindrome/solution.cpp)
+
+### 解题思路
+
+Two Pointers。
